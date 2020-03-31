@@ -4,8 +4,6 @@ sudo usermod -aG docker username
 usermod -aG sudo seohasong
 # delete user
 sudo deluser --remove-home seohasong
-
-# change accessibility of id_rsa
-chmod 600 id_rsa
 # add key to ssh agent
+chmod 600 id_rsa
 ssh-add
